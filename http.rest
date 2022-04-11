@@ -1,0 +1,11 @@
+### POSTS
+GET http://localhost:3010/posts
+
+### POSTS
+POST http://localhost:3010/posts
+
+###
+GET http://localhost:3010/numbers/gt/11
+
+###
+GET http://localhost:3010/numbers/obj-values
