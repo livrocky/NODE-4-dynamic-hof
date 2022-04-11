@@ -19,7 +19,6 @@ app.listen(port, () => console.log("express is online", port));
 
 //GET /numbers - grazina numbers masyva json formatu is db.js
 const { numbers } = require("./db/db");
-const { findSourceMap } = require("module");
 app.get("/numbers", (request, response) => {
   console.log("numbers===", numbers);
   response.json(numbers);
