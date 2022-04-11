@@ -1,0 +1,25 @@
+{
+  "name": "node-4-dynamic-hof",
+  "version": "1.0.0",
+  "description": "1. Susikuriam src/server.js 2. prisidedam git    inicijuojam mpm",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livrocky/NODE-4-dynamic-hof.git"
+  },
+  "keywords": [],
+  "author": "Rokas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/livrocky/NODE-4-dynamic-hof/issues"
+  },
+  "homepage": "https://github.com/livrocky/NODE-4-dynamic-hof#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0"
+  }
+}
