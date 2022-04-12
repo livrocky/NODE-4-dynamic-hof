@@ -1,18 +1,17 @@
 ### POSTS
-GET http://localhost:3010/posts/4
+GET http://localhost:3000/api/posts/1
 
-### POSTS
-POST http://localhost:3010/api/posts
+### NUMBERS
+GET http://localhost:3000/api/numbers
 
+### NUMBERS
+GET http://localhost:3000/api/numbers/gt/5
 
-###
-GET http://localhost:3010/api/numbers/obj-values
-
-###
-GET http://localhost:3010/api/numbers
-
-###
-GET http://localhost:3010/api/numbers/max
+### NUMBERS
+GET http://localhost:3000/api/numbers/obj-values
 
 ###
-GET http://localhost:3010/api/numbers/gt/5
+GET http://localhost:3000/api/numbers/max
+
+###
+GET http://localhost:3000/api/numbers/gt/5
