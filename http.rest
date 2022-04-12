@@ -4,8 +4,15 @@ GET http://localhost:3010/posts/4
 ### POSTS
 POST http://localhost:3010/posts
 
-###
-GET http://localhost:3010/numbers/gt/20
 
 ###
-GET http://localhost:3010/numbers/obj-values
+GET http://localhost:3010/api/numbers/obj-values
+
+###
+GET http://localhost:3010/api/numbers
+
+###
+GET http://localhost:3010/api/numbers/max
+
+###
+GET http://localhost:3010/api/numbers/gt/5
